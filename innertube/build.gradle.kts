@@ -29,8 +29,7 @@ dependencies {
     implementation(libs.ktor.serialization.json)
     implementation(libs.ktor.client.encoding)
     implementation(libs.brotli)
-    implementation("com.github.Z-MusicGroup:Z-MusicExtractor:6305155") {
-        exclude(group = "com.google.protobuf")
+    implementation("com.github.MetrolistGroup:MetrolistExtractor:6305155") {        exclude(group = "com.google.protobuf")
     }
     implementation(libs.timber)
     testImplementation(libs.junit)
