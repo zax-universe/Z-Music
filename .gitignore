@@ -1,0 +1,31 @@
+# Android
+*.iml
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+*.keystore
+*.jks
+
+# App build outputs
+app/build/
+**/build/
+
+# Keystore (JANGAN pernah commit keystore!)
+*.keystore
+*.jks
+persistent-debug.keystore
+pr-debug.keystore
+keystore.b64
+
+# Local config
+local.properties
+gradle.properties.local
+
+# Misc
+*.log
+*.tmp
